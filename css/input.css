@@ -3,20 +3,20 @@
 @tailwind utilities;
 
 .btn {
-  @apply bg-[#94AE2F] text-white text-lg font-semibold py-3 px-8 rounded-lg;
+  @apply bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white text-lg font-semibold py-3 px-8 rounded-lg;
 }
 .card-design {
-  @apply w-80 mx-auto border p-4 shadow-lg rounded-xl;
+  @apply w-80 mx-auto border p-4 shadow-lg rounded-xl mb-6;
 }
 .card-image {
   @apply bg-[#F1F1F1] rounded-xl p-4;
 }
 .card-h3 {
-  @apply text-[#363958] text-2xl font-bold;
+  @apply text-[#363958] text-2xl font-bold mb-3 mt-4;
 }
 .card-price {
   @apply text-[#FABE4C] text-4xl font-bold;
 }
-p{
-    @apply text-[#363958] text-base
+p {
+  @apply text-[#363958] text-base mb-5;
 }

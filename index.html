@@ -4,52 +4,162 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Penguin Fashion</title>
-    <link href="./css/output.css" rel="stylesheet" />
+    <!-- Font Awesome CDN Link -->
+    <script
+      src="https://kit.fontawesome.com/27daea0603.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Roboto Font CDN Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bebas Neue Font CDN Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS File Link -->
+    <link href="./css/input.css" rel="stylesheet" />
   </head>
-  <body>
-    <header class="bg-[#FFFBF0] py-8">
+  <body class="font-[Roboto]">
+    <header class="bg-[#FFFBF0] py-8 mb-24">
       <nav
-        class="lg:w-4/5 lg:mx-auto lg:flex md:justify-between md:items-center"
+        class="w-11/12 mx-auto  lg:w-4/5 lg:mx-auto flex justify-between items-center mb-12"
       >
         <div>
-          <img class="lg:h-14" src="../icons/logo.png" alt="" />
+          <img class="h-9 lg:h-12" src="../icons/logo.png" alt="" />
         </div>
-        <div>
+
+        <div class="">
           <ul
-            class="lg:flex lg:justify-center lg:items-center gap-x-10 text-xl font-semibold"
+            class="hidden  lg:block lg:flex lg:justify-center lg:items-center gap-x-10 text-xl font-semibold"
           >
             <li>Home</li>
             <li>Product</li>
             <li>About Us</li>
             <li>Contact Us</li>
           </ul>
+          <i class="sm:block lg:hidden text-2xl fa-solid fa-bars"></i>
         </div>
       </nav>
       <!-- Banner Section Code Start Here -->
       <section
-        class="lg:w-4/5 lg:mx-auto md:flex md:justify-between md:items-center"
+        class="w-11/12 mx-auto  lg:w-4/5 lg:mx-auto md:flex md:justify-between md:items-center"
       >
-        <div>
-          <h1 class="lg:text-5xl font-extrabold">
-            <span class="text-[#FABE4C]">Be the Penguins</span> <br />
-            <span class="text-[#363958]">of Winter</span>
+        <div class="lg:w-1/2">
+          <h1 class="text-5xl font-extrabold leading-[62px] mb-5">
+            <span class="text-[#FABE4C]">BE THE PENGUINS</span> <br />
+            <span class="text-[#363958]">OF WINTER</span>
           </h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            A designer develops and creates visual ideas. But depending on the type of designer you are, the work you do could be anything from designing magazines and digital interfaces to creating a navigation system for a public space. Wondering what a career in design could look like?
           </p>
-          <button
-            class="btn"
-          >
-            BUY NOW
-          </button>
+          <button class="btn mt-2">BUY NOW</button>
         </div>
-        <div>
+        <div class="mt-16">
           <img src="../images/model.png" alt="Person Image" />
         </div>
       </section>
       <!-- Banner Section Code End Here -->
     </header>
-   
+    <main class="lg:w-4/5 lg:mx-auto">
+      <!-- Woman Jacket Section Code Start Here -->
+      <h2 class="text-5xl font-bold text-center text-[#363958] uppercase">WOMAN JACKET</h2>
+      <div class="my-10 lg:flex lg:justify-between lg:text-center">
+        <div class="card-design">
+          <div class="card-image">
+            <img src="../images/jacket-1.png" alt="Jacket Image" />
+          </div>
+          <h3 class="card-h3">Yellow Coat Jacket</h3>
+          <p class="">
+            The perfect printed lawn suits for your summer wardrobe at our online store.
+          </p>
+          <div class="flex justify-between items-center">
+            <span class="card-price">$234</span>
+            <button class="btn">BUY NOW</button>
+          </div>
+        </div>
+
+        <div class="card-design">
+          <div class="card-image">
+            <img src="../images/jacket-2.png" alt="Jacket Image" />
+          </div>
+          <h3 class="card-h3">Ladies Jacket </h3>
+          <p class="">
+            The perfect printed lawn suits for your summer wardrobe at our online store.
+          </p>
+          <div class="flex justify-between items-center">
+            <span class="card-price">$234</span>
+            <button class="btn">BUY NOW</button>
+          </div>
+        </div>
+
+        <div class="card-design">
+          <div class="card-image">
+            <img src="../images/jacket-3.png" alt="Jacket Image" />
+          </div>
+          <h3 class="card-h3">Woman Leather Jacket </h3>
+          <p class="">
+            The perfect printed lawn suits for your summer wardrobe at our online store.
+          </p>
+          <div class="flex justify-between items-center">
+            <span class="card-price">$234</span>
+            <button class="btn">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+      <!-- Woman Jacket Section Code End Here -->
+      <!-- Man Jacket Section Code Start Here -->
+      <h2 class="text-5xl font-bold text-center text-[#363958] uppercase">MAN JACKET</h2>
+      <div class="my-10 lg:flex lg:justify-between lg:text-center">
+        <div class="card-design">
+          <div class="card-image">
+            <img src="../images/jacket-4.png" alt="Jacket Image" />
+          </div>
+          <h3 class="card-h3">Snowboard Jacket Mens</h3>
+          <p class="">
+            The perfect printed lawn suits for your summer wardrobe at our online store.
+          </p>
+          <div class="flex justify-between items-center">
+            <span class="card-price">$234</span>
+            <button class="btn">BUY NOW</button>
+          </div>
+        </div>
+
+        <div class="card-design">
+          <div class="card-image">
+            <img src="../images/jacket-5.png" alt="Jacket Image" />
+          </div>
+          <h3 class="card-h3">Man Leather Jackets </h3>
+          <p class="">
+            The perfect printed lawn suits for your summer wardrobe at our online store.
+          </p>
+          <div class="flex justify-between items-center">
+            <span class="card-price">$234</span>
+            <button class="btn">BUY NOW</button>
+          </div>
+        </div>
+
+        <div class="card-design">
+          <div class="card-image">
+            <img src="../images/jacket-6.png" alt="Jacket Image" />
+          </div>
+          <h3 class="card-h3">Man Casual Jackets </h3>
+          <p class="">
+            The perfect printed lawn suits for your summer wardrobe at our online store.
+          </p>
+          <div class="flex justify-between items-center">
+            <span class="card-price">$234</span>
+            <button class="btn">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+      <!-- Man Jacket Section Code End Here -->
+    </main>
   </body>
 </html>
