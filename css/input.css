@@ -20,3 +20,9 @@
 p {
   @apply text-[#363958] text-base mb-5;
 }
+.service-card{
+  @apply py-6 px-8 shadow-lg rounded-xl text-center  lg:flex lg:items-center lg:text-left gap-x-9 mb-6
+}
+.service-h3{
+  @apply mt-4 mb-3 text-[#363958] text-2xl font-bold
+}
