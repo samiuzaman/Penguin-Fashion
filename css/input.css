@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply bg-[#94AE2F] text-white text-lg font-semibold py-3 px-8 rounded-lg;
+}
+.card-design {
+  @apply w-80 mx-auto border p-4 shadow-lg rounded-xl;
+}
+.card-image {
+  @apply bg-[#F1F1F1] rounded-xl p-4;
+}
+.card-h3 {
+  @apply text-[#363958] text-2xl font-bold;
+}
+.card-price {
+  @apply text-[#FABE4C] text-4xl font-bold;
+}
+p{
+    @apply text-[#363958] text-base
+}
