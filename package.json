@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "vite",
+    "start": "npx tailwindcss -i ./src/input.css -o ./src/style.css --watch",
     "build": "vite build"
   },
   "keywords": [],
